@@ -4,37 +4,37 @@ import Project from '../Project';
 function Portfolio() {
 	const projects = [
 		{
-			name: 'Living Real',
+			name: 'BiteBud',
 			description:
-				'This is a property management system that is used by landlords viewing and managing their properties and for tenants to allow for maintenance requests and pay rent.',
-			image: 'living-real-image.png',
+				'Bite-Bud is a web application that allows users to search for local restaurants and attractions in any city and state of their choice. The application retrieves data from third-party APIs to provide users with relevant information about nearby restaurants and attractions.',
+			image: 'bitebud.png',
 			technologies: [
 				'HTML/CSS',
 				'JavaScript',
 				'Node.js',
-				'Express & NoSQL',
-				'Heroku & AWS S3',
-				'React.js',
-				'MERN Stack',
 			],
-			github: 'https://github.com/P3T2-Realty-Rogues/living-real',
-			deployed: 'https://living-real.herokuapp.com/',
+			github: 'https://github.com/Suzakijun1/BiteBud',
+			deployed: 'https://suzakijun1.github.io/BiteBud/',
 		},
 		{
-			name: 'Auto Tracker',
+			name: 'Social-Revue',
 			description:
-				'This is your personal automobile information tracking system. Track time dependent, vehicle specific information from a single application, available on any web-enabled device.',
-			image: 'auto-tracker-image.png',
+				'The Socials Revue App is a web application that allows users to create an account, post and delete reviews of different social media platforms. The application is built using Node.js, Express, and DBeaver for the database.',
+			image: 'Social-Revue.png',
 			technologies: [
 				'HTML/CSS',
 				'JavaScript',
 				'Node.js',
-				'Handlebars.js',
-				'Express & Sequelize',
-				'Heroku & AWS S3',
+				'Sequelize',
+				'DBeaver',
+				'MySql2',
+				'Bcrypt',
+				'Express-Sessions',
+				'Express-Handlebars',
+				'DotEnv',
 			],
-			github: 'https://github.com/OwaisIslam/auto-tracker',
-			deployed: 'https://team-3-auto-tracker.herokuapp.com/',
+			github: 'https://github.com/codemonkeyspoon/Social-Revue',
+			deployed: 'http://localhost:3001',
 		},
 	];
 

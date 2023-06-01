@@ -4,7 +4,7 @@ function Proficiencies() {
 	return (
 		<section>
 			<div className="center">
-				<h1 className="page-header">My Resume</h1>
+				<h1 className="page-header">My Proficiencies</h1>
 			</div>
 			<div>
 				<h5>Front-End Proficiencies</h5>
