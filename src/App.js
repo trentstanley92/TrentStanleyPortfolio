@@ -1,25 +1,25 @@
 import "./App.css";
 import React, { useState } from "react";
-import header from "./components/header/header.js";
-import footer from "./components/footer/footer.js";
-import about from "./components/about/about.js";
-import portfolio from "./components/portfolio/portfolio.js";
-import contact from "./components/contact/contact.js";
-import resume from "./components/proficiencies/proficiences.js";
+import Header from "./components/header/header.js";
+import Footer from "./components/footer/footer.js";
+import About from "./components/about/about.js";
+import Portfolio from "./components/portfolio/portfolio.js";
+import Contact from "./components/contact/contact.js";
+import Resume from "./components/proficiencies/proficiences.js";
 
 function App() {
 	const [currentTab, setCurrentTab] = useState("about");
 
 	const renderTab = () => {
 		switch (currentTab) {
-			case "about":
-				return <about />;
-			case "portfolio":
-				return <portfolio />;
-			case "contact":
-				return <contact />;
-			case "resume":
-				return <resume />;
+			case "About":
+				return <About />;
+			case "Portfolio":
+				return <Portfolio />;
+			case "Contact":
+				return <Contact />;
+			case "Resume":
+				return <Resume />;
 			default:
 				return null;
 		}
